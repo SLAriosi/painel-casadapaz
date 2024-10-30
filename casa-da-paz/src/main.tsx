@@ -1,10 +1,6 @@
-import { StrictMode } from 'react'
-import { createRoot } from 'react-dom/client'
-// import Login from './screens/Login.tsx'
-import Cadastro from './screens/Login'
+import ReactDOM from 'react-dom/client'
+import App from './app'
 
-createRoot(document.getElementById('root')!).render(
-  <StrictMode>
-    <Cadastro />
-  </StrictMode>,
+ReactDOM.createRoot(document.getElementById('root')!).render(
+    <App />,
 )
